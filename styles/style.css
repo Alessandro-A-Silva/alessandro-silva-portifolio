@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+body {
+    background: url("../assets/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+    background: rgba(199, 110, 255, 0.116);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#logo {
+    padding-top: 10px;
+    width: 240px;
+}
+
+nav, a {
+    padding-left: 30px; 
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+nav, a:link {
+    color: #fff;
+}
+
+nav, a:visited {
+    color: #fff;
+}
+
+nav, a:hover {
+    color: rgba(255, 0, 102);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(55, 31, 67, 0.5);
+
+}
+
+#container {
+    max-width: 1280px;
+    margin-bottom: 10px;
+}
+
+section {
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255, 0, 102, 0.362);
+}
+
+h2 {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 0, 102,  0.362);
+}
+
+.exp {
+    display: flex;
+    margin-top: 20px;
+}
+
+.xp {
+    min-width: 430px;
+  
+}
+
+.empresa{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+@media(max-width: 620px){
+    .dt {
+        display: none;
+    }
+    .xp {
+        min-width: 0px;
+    }
+    #logo {
+        width: 160px;
+    }
+
+}
+
+#lista-social {
+    display: flex;
+    align-items: start;
+}
+
+.rede-social {
+   width: 100px;
+   font-size: 40px;
+   padding-left: 0;
+}
+
+.rede-social, i {
+    color: #FF0066;
+    /* font-size: 30px; */
+}
+.habilidades {
+    display: flex;
+}
+
+.habilidade {
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.edu {
+    display: flex;
+    margin-top: 20px;
+}
+
+.ed {
+    min-width: 430px;
+}
+
+.ed img {
+    width: 80px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.curso {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+label {
+    display: block;
+    width: 100px;
+}
+input {
+    min-width: 200px;
+}
+
+button {
+    background-color: rgb(0, 132, 255);
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 31, 67, 0.5);;
+    height: 40px;
+}
