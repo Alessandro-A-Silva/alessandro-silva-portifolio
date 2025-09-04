@@ -126,6 +126,10 @@ h2 {
     color: #FF0066;
     /* font-size: 30px; */
 }
+
+.rede-social i:hover{
+    color: #ff3888;
+}
 .habilidades {
     display: flex;
 }
