@@ -184,3 +184,29 @@ footer {
 p {
     text-align: justify;
 }
+
+#Eventos-itens{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#Eventos-itens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Evento{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Evento img {
+    width: 360px;
+}
+
+h4{
+    text-align: center;
+    font-size: 14px;
+}
